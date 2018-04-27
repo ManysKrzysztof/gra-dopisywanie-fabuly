@@ -62,11 +62,12 @@ void fill_stats(short choice) {
             case 2:gracz.agility=1;cout<<"Wybrales Maratonczyka\n";break;
 
 }
-cout<<"Zostalem napadniety na szlaku!\nNie masz pomyslu jak moge zarobic troche pieniedzy na utrzymanie?\n";
+cout<<"Patrzysz na oberzyste i przypominasz sobie o utraconym dobytku.\n";
+cout<<"-Zostalem napadniety na szlaku!\n-Nie masz pomyslu jak moge zarobic troche pieniedzy na utrzymanie?\n";
 cout<<"Oberzysta patrzy na ciebie i po chwili milczenia mowi.\n-Zalegly mi sie chrzaszcze w piwnicy.\n";
 cout<<"Patrzysz na mezczyzne z obrzydzeniem i zazenowaniem.\n-Czemu sam sie ich nie pozbedziesz?!\n";
 cout<<"Karczmarz patrzy na ciebie jak na debila i wzdycha.\nIch lajno wydziela trujacy gaz, a mi szkoda zdrowia.\nTo co? Idziesz, czy mam cie wyprowadzic.\n";
-cout<<"Nie bez oporow zdajesz sobie sprawe ze nie masz innej opcj.\n-Dobra! dobra.Pojde, Pokaz mi gdzie jest ta piwnica.\n";
+cout<<"Nie bez oporow zdajesz sobie sprawe ze nie masz innej opcj.\n-Dobra! Dobra.Pojde, Pokaz mi gdzie jest ta piwnica.\n";
 }
 
 bool fight(Player player, Enemy enemy){
